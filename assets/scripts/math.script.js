@@ -1,43 +1,23 @@
-function calcular() {
-    let numA = Number(document.getElementById("numA").value);
-    let numB = Number(document.getElementById("numB").value);
-
-    //alert(numA)
-    //alert(numB)
-}
-
 function soma() {
-    let numA = Number(document.getElementById("numA").value);
-    let numB = Number(document.getElementById("numB").value);
+    let num = Number(document.getElementById("num").value);
     
-    let result = numA + numB
+    let result = num + 1
     
     document.getElementById("result").innerText = result;
 }
 
 function sub() {
-    let numA = Number(document.getElementById("numA").value);
-    let numB = Number(document.getElementById("numB").value);
+    let num = Number(document.getElementById("num").value);
     
-    let result = numA - numB
-    
-    document.getElementById("result").innerText = result;
-}
-
-function multi() {
-    let numA = Number(document.getElementById("numA").value);
-    let numB = Number(document.getElementById("numB").value);
-    
-    let result = numA * numB
+    let result = num - 1
     
     document.getElementById("result").innerText = result;
 }
 
-function div() {
-    let numA = Number(document.getElementById("numA").value);
-    let numB = Number(document.getElementById("numB").value);
-    
-    let result = numA / numB
+function reseta() {
+    let num = Number(document.getElementById("num").value);
+
+    let result = num * 0
     
     document.getElementById("result").innerText = result;
 }

@@ -18,7 +18,7 @@ body {
 }
 
 p {
-    background-color: rgb(255, 0, 76);
+    background-color: red;
     width: 22rem;
     height: 3rem;
     font-size: 1.5rem;
@@ -31,4 +31,9 @@ p {
 
 .nav {
     text-decoration: none;
+    color: white;
+}
+
+.navegation {
+    background-color: black;
 }
